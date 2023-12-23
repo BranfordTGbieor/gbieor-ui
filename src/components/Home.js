@@ -49,8 +49,8 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
                 </span>
               </a>
               <a
-                href="#work"
-                onClick={() => changeNav("work")}
+                href="#contact"
+                onClick={() => changeNav("contact")}
                 className="btn btn-secondary link-portfolio-two"
               >
                 <span>

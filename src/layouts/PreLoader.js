@@ -11,7 +11,7 @@ const PreLoader = () => {
   return (
     <div className={`preloader ${loaded ? "loaded" : ""}`}>
       <div className="preloader-container">
-        <h1>Branford</h1>
+        <h1 style={{ textTransform: "capitalize" }}>Branford T</h1>
         <div id="progress-line-container">
           <div className="progress-line" />
         </div>
