@@ -53,7 +53,8 @@ const Contact = () => {
             get <span>in touch</span>
           </h2>
           <span className="title-head-subtitle">
-            I’m always open to brainstorming new problems & bringing innovative ideas to life
+            I’m always open to brainstorming new problems & bringing innovative
+            ideas to life
           </span>
         </div>
         {/* Main Heading Ends */}
@@ -97,6 +98,7 @@ const Contact = () => {
                       title="Stack-Overflow"
                       href="https://stackoverflow.com/users/7364756/branford-t-gbieor"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fa fa-stack-overflow" />
                     </a>
@@ -106,6 +108,7 @@ const Contact = () => {
                       title="Github"
                       href="https://github.com/BranfordTGbieor"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fa fa-github" />
                     </a>
@@ -115,12 +118,18 @@ const Contact = () => {
                       title="LinkedIn"
                       href="https://www.linkedin.com/in/gbieor/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fa fa-linkedin" />
                     </a>
                   </li>
                   <li className="x">
-                    <a title="X" href="https://twitter.com/BGbieor" target="_blank">
+                    <a
+                      title="X"
+                      href="https://twitter.com/BGbieor"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <i className="fa fa-twitter" />
                     </a>
                   </li>
@@ -132,8 +141,8 @@ const Contact = () => {
             {/* Contact Form Starts */}
             <div className="col-12 col-md-8 col-xl-8 rightside">
               <p>
-                Have any project ideas or just wanna say Hello? Fill out the form
-                below and I will reply you ASAP.
+                Have any project ideas or just wanna say Hello? Fill out the
+                form below and I will reply you ASAP.
               </p>
               <form className="contactform" onSubmit={(e) => onSubmit(e)}>
                 <div className="row">

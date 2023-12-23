@@ -10,8 +10,8 @@ const About = () => {
           about <span>me</span>
         </h2>
         <span className="title-head-subtitle">
-          I design & develop modern software systems following industry best practices
-          & standards.
+          I design & develop modern software systems following industry best
+          practices & standards.
         </span>
       </div>
       {/* Main Heading Ends */}
@@ -95,6 +95,7 @@ const About = () => {
               <a
                 href="https://app.luminpdf.com/viewer/65837c6ab60d8eb15ec595ee"
                 target="_blank"
+                rel="noreferrer"
                 className="btn btn-resume"
               >
                 <span>
