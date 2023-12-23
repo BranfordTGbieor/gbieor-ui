@@ -1156,8 +1156,8 @@ div.container.page-title {
 .page-title .title-head-subtitle {
   position: relative;
   display: inline-block;
-  text-transform: uppercase;
-  font-size: 15px;
+  text-transform: capitalize;
+  font-size: 18px;
   color: #555;
   margin: 20px 0 0;
   opacity: .8;

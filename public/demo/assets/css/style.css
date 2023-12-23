@@ -30,7 +30,7 @@ body{
     margin: 0;
     letter-spacing: 2px;
 	    display: inline;
-    border: 1px solid #ffb400;
+    border: 1px solid #ffcf40;
     padding: 8px 20px;
 }
 .banner h2{
@@ -106,7 +106,7 @@ h2{
     letter-spacing: 2px;
 }
 .footer_copyright a, .footer_copyright .heart  {
-	color:#ffb400;
+	color:#ffcf40;
 }
 .bg_container {
 	padding: 4px;

@@ -9,7 +9,7 @@ const AnimationText = () => {
           "branford",
           "a software engineer",
           "a data engineer",
-          "a cloud engineer",
+          "a cloud architect",
         ]}
       />
     </h1>

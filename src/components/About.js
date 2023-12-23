@@ -10,7 +10,8 @@ const About = () => {
           about <span>me</span>
         </h2>
         <span className="title-head-subtitle">
-          I design and code beautiful things, and I love what I do.
+          I design & develop modern software systems following industry best practices
+          & standards.
         </span>
       </div>
       {/* Main Heading Ends */}
@@ -39,24 +40,24 @@ const About = () => {
               <ul className="list-1">
                 <li>
                   <h6>
-                    <span className="font-weight-600">Full Name</span>
+                    <span className="font-weight-600">Name:</span>
                     Branford T. Gbieor
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Nationality</span>
-                    Liberia
+                    <span className="font-weight-600">Nationality:</span>
+                    Liberian
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Experience</span>11 years
+                    <span className="font-weight-600">Experience:</span>11 years
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Address</span>
+                    <span className="font-weight-600">Address:</span>
                     Monrovia, Liberia
                   </h6>
                 </li>
@@ -66,32 +67,36 @@ const About = () => {
               <ul className="list-2">
                 <li>
                   <h6>
-                    <span className="font-weight-600">Freelance</span>
+                    <span className="font-weight-600">Freelance:</span>
                     Available
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Langages</span>
-                    English
+                    <span className="font-weight-600">Langages:</span>
+                    English & French
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Phone</span>
-                    +231-776-578-735
+                    <span className="font-weight-600">Phone:</span>
+                    +231 776 578 735
                   </h6>
                 </li>
                 <li>
                   <h6>
-                    <span className="font-weight-600">Email</span>
+                    <span className="font-weight-600">Email:</span>
                     me@gbieorbranford.com
                   </h6>
                 </li>
               </ul>
             </div>
             <div className="col-12 resume-btn-container">
-              <a href="#" className="btn btn-resume">
+              <a
+                href="https://app.luminpdf.com/viewer/65837c6ab60d8eb15ec595ee"
+                target="_blank"
+                className="btn btn-resume"
+              >
                 <span>
                   <i className="fa fa-download" />
                   download my cv
@@ -163,7 +168,9 @@ const About = () => {
                       <span className="d-block font-weight-400 uppercase">
                         Data Engineer
                         <span className="separator" />
-                        <span className="font-weight-700">Last Mile Health</span>
+                        <span className="font-weight-700">
+                          Last Mile Health
+                        </span>
                       </span>
                     </div>
                     <div className="card-body">
@@ -230,7 +237,7 @@ const About = () => {
                         Software Product Management
                         <span className="separator" />
                         <span className="font-weight-700">
-                        University of Virginia
+                          University of Virginia
                         </span>
                       </span>
                     </div>

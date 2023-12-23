@@ -1,5 +1,5 @@
 /* =================================================================== */
-/* YELLOW #ffb400
+/* YELLOW #ffcf40
 ====================================================================== */
 .nav-container > div > ul li.active a,
 .nav-container > div > ul li:hover a,
@@ -26,13 +26,13 @@ body.blog.dark .comments-list .comment-reply:hover,
 .resume-items .item .card-header .year i.fa-caret-right,
 .badges h3 span,
 .chart-bar>.percent  {
-	color: #ffb400;
+	color: #ffcf40;
 }
 .cd-stretchy-nav.nav-is-visible ul li.active a,
 .cd-stretchy-nav.nav-is-visible ul li.active a span,
 .cd-stretchy-nav.nav-is-visible ul li a:hover,
 .cd-stretchy-nav.nav-is-visible ul li a:hover span {
-	color: #ffb400 !important;
+	color: #ffcf40 !important;
 }
 .chart-bar>.item-progress,
 .navigation li > div a span:after,
@@ -61,41 +61,41 @@ section#blog .post-date,
 .back-mobile,
 .page-title .title-head-subtitle:before,
 .page-title .title-head-subtitle:after{
-	background-color: #ffb400;
+	background-color: #ffcf40;
 }
 
 .contact-container ul.social-intro li a,
 .btn.btn-secondary,
 .btn.btn-secondary:focus,
 .chart-bar>.percent {
-	border: 1px solid #ffb400;
+	border: 1px solid #ffcf40;
 }
 
 .arrow {
-	border: 1px solid #ffb400;
+	border: 1px solid #ffcf40;
     border-width: 0 1px 1px 0;
 }
 
 .resume-items .item:before {
-	border-left: 1px solid #ffb400;
+	border-left: 1px solid #ffcf40;
 }
 
 .resume-items .item .bullet{
-	border: 2px solid #ffb400;
+	border: 2px solid #ffcf40;
 }
 
 .personal-info .image-container:before {
-	border: 6px solid #ffb400;
+	border: 6px solid #ffcf40;
 }
 
 .btn-secondary:not(:disabled):not(.disabled).active,
 .btn-secondary:not(:disabled):not(.disabled):active {
-	border-color:#ffb400;
+	border-color:#ffcf40;
 }
 
 body.blog .container-fluid.page-title .content-banner {
-	border-bottom:8px solid #ffb400;
+	border-bottom:8px solid #ffcf40;
 }
 #portfolio-items li a div {
-	background: #ffb400;
+	background: #ffcf40;
 }

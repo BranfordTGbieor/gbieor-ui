@@ -3,47 +3,24 @@ import NavContext from "../context/navContext";
 import BlogPopup from "./BlogPopup";
 const data = [
   {
-    title: "create a wordpress theme from scratch",
-    img: "img/blog/blog-post-1.jpg",
-    tag: "Branding",
-    date: { date: "23", month: "jun", year: "2021" },
+    title: "Understanding Agile Project Management",
+    img: "img/blog/blog-post-1.png",
+    tag: "Management",
+    date: { date: "20", month: "Dec", year: "2023" },
     des: [
-      "Oki is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "Agile is an iterative approach to project management and software development that focuses on collaboration, customer feedback, and rapid releases.",
+      "In an agile approach, some planning and design is done upfront, but the development proceeds in small batches and involves close collaboration with stakeholders. Changes are incorporated continuously and a usable version of a product is often released quicker compared to products developed through the waterfall methodology. This provides many benefits, with arguably the most important being that if software doesn’t meet the needs or expectations of the customer, it  can be remediated in real-time.",
+      "Agile is a collection of methodologies, not a single approach to development. It is an aggregation of scrum, eXtreme Programming (XP), and other systems of practice that developers used in years prior, and resulted from those practitioners coming together to unify these approaches into a single set of principles.",
     ],
   },
   {
-    title: "Effective Marketing Strategy tips",
-    img: "img/blog/blog-post-2.jpg",
-    tag: "Design",
-    date: { date: "23", month: "jun", year: "2021" },
+    title: "Cloud Engineering Career Path",
+    img: "img/blog/blog-post-2.png",
+    tag: "Development",
+    date: { date: "29", month: "Dec", year: "2023" },
     des: [
-      "Oki is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-    ],
-  },
-  {
-    title: "free psd and sketch ressouces",
-    img: "img/blog/blog-post-3.jpg",
-    tag: "Media",
-    date: { date: "23", month: "jun", year: "2021" },
-    des: [
-      "Oki is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-    ],
-  },
-  {
-    title: "How to become a successful freelancer",
-    img: "img/blog/blog-post-4.jpg",
-    tag: "Technology",
-    date: { date: "23", month: "jun", year: "2021" },
-    des: [
-      "Oki is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "Cloud engineers design, develop, deploy, and monitor cloud systems to provide a secure cloud environment and adequate service availability. They often focus on a single cloud-service provider, such as Azure, Google Cloud Platform, or Amazon Web Services. A cloud engineer should be well-versed in the cloud's software development, scripting languages, and web service architecture.",
+      "The cloud engineer education requirements include a bachelor's degree in a scientific field such as Computer Science or IT. Besides that, the following are the essential technical skills that will help you become a successful cloud engineer: Programming Skills, Linux, Networking, Security and Recovery, Storage Skills, Web Services and API, Virtualization, Cloud Service Provider, Let us discuss them in detail",
     ],
   },
 ];

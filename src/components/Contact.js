@@ -53,7 +53,7 @@ const Contact = () => {
             get <span>in touch</span>
           </h2>
           <span className="title-head-subtitle">
-            I’m always open to discussing product design work or partnerships.
+            I’m always open to brainstorming new problems & bringing innovative ideas to life
           </span>
         </div>
         {/* Main Heading Ends */}
@@ -65,9 +65,16 @@ const Contact = () => {
                 <li>
                   <h6 className="font-weight-600">
                     {" "}
-                    <span className="contact-title">Phone</span>
+                    <span className="contact-title">whatsapp</span>
                     <i className="fa fa-whatsapp" />
                     <span className="contact-content">+231 776 578 735</span>
+                  </h6>
+                </li>
+                <li>
+                  <h6 className="font-weight-600">
+                    <span className="contact-title">Phone</span>
+                    <i className="fa fa-phone" />
+                    <span className="contact-content">+231 886 578 735</span>
                   </h6>
                 </li>
                 <li>
@@ -75,14 +82,9 @@ const Contact = () => {
                     {" "}
                     <span className="contact-title">email</span>
                     <i className="fa fa-envelope-o fs-14" />
-                    <span className="contact-content">info@gbieorbranford.com</span>
-                  </h6>
-                </li>
-                <li>
-                  <h6 className="font-weight-600">
-                    <span className="contact-title">instagram</span>
-                    <i className="fa fa-instagram" />
-                    <span className="contact-content">gbieor_taylie</span>
+                    <span className="contact-content">
+                      gbieorbranford@gmail.com
+                    </span>
                   </h6>
                 </li>
               </ul>
@@ -91,23 +93,35 @@ const Contact = () => {
                 <h6 className="font-weight-600 uppercase">Social Profiles</h6>
                 <ul className="list-inline social social-intro text-center p-none">
                   <li className="facebook">
-                    <a title="Facebook" href="#">
-                      <i className="fa fa-facebook" />
+                    <a
+                      title="Stack-Overflow"
+                      href="https://stackoverflow.com/users/7364756/branford-t-gbieor"
+                      target="_blank"
+                    >
+                      <i className="fa fa-stack-overflow" />
                     </a>
                   </li>
-                  <li className="twitter">
-                    <a title="Twitter" href="#">
+                  <li className="github">
+                    <a
+                      title="Github"
+                      href="https://github.com/BranfordTGbieor"
+                      target="_blank"
+                    >
+                      <i className="fa fa-github" />
+                    </a>
+                  </li>
+                  <li className="linkedin">
+                    <a
+                      title="LinkedIn"
+                      href="https://www.linkedin.com/in/gbieor/"
+                      target="_blank"
+                    >
+                      <i className="fa fa-linkedin" />
+                    </a>
+                  </li>
+                  <li className="x">
+                    <a title="X" href="https://twitter.com/BGbieor" target="_blank">
                       <i className="fa fa-twitter" />
-                    </a>
-                  </li>
-                  <li className="youtube">
-                    <a title="Youtube" href="#">
-                      <i className="fa fa-youtube" />
-                    </a>
-                  </li>
-                  <li className="dribbble">
-                    <a title="Dribbble" href="#">
-                      <i className="fa fa-dribbble" />
                     </a>
                   </li>
                 </ul>
@@ -118,9 +132,8 @@ const Contact = () => {
             {/* Contact Form Starts */}
             <div className="col-12 col-md-8 col-xl-8 rightside">
               <p>
-                Have any project idea or just wanna say
-                Hello? Fill out the form below and I will reply you
-                ASAP.
+                Have any project ideas or just wanna say Hello? Fill out the form
+                below and I will reply you ASAP.
               </p>
               <form className="contactform" onSubmit={(e) => onSubmit(e)}>
                 <div className="row">

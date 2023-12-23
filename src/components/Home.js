@@ -54,8 +54,8 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
                 className="btn btn-secondary link-portfolio-two"
               >
                 <span>
-                  <i className="fa fa-suitcase" />
-                  portfolio
+                  <i className="fa fa-comments" />
+                  send me a message
                 </span>
               </a>
             </div>
